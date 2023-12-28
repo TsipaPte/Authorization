@@ -1,0 +1,99 @@
+body{
+    background-color: #edf3fd;
+    font-family: 'Yu Gothic UI Light';
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 70px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.form h1{
+    text-align: center;
+    margin: 0 auto;
+}
+.auth{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #555;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Calibri;
+}
+.auth:invalid{
+    border: 2px solid darkred;
+}
+.username{
+    font-size: 20px;
+}
+.login{
+    padding: 10px 40px;
+    margin-top: 10px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 10px;
+    border: 2px solid #444444;
+}
+.reset{
+    padding: 10px 40px;
+    margin-top: 10px;
+    background-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 2px solid #444444;
+}
+.buttons{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.noaccount{
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+.reg{
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.9);
+    padding: 10px 40px;
+    margin-top: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+dialog::backdrop{
+    background: rgba(0, 0, 0, 0.5);
+}
+dialog{
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+}
+.regcancel, .regclear, .regsubmit{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: darkred;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.regsubmit{
+    background-color: darkcyan;
+}
