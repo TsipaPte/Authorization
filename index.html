@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Форма авторизации на сайт </title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="img/favicon.ico">
+        <meta name="description" content="Авторизационная/регистрационная форма входа на сайт">
+        <meta name="keywords" content="Авторизация, вход, форма авторизации, форма входа">
+    </head>
+    <body>
+        <form class="form">
+            <h1> Авторизация на сайт </h1>
+            <input class="auth" placeholder="Введите имя пользователя" required maxlength="20">
+            <input class="auth" placeholder="Введите пароль пользователя" type="password" required>
+            <div class="buttons">
+                <button type="submit" class="login"> Войти </button>
+                <button type="reset" class="reset"> Сбросить данные </button>
+            </div>
+            <div class="noaccount">
+                <button class="reg"> Зарегестрировать аккаунт </button>
+                <dialog>
+                    <h1> Регистрация на сайт </h1>
+                    <input class="auth" placeholder="Введите имя пользователя" required maxlength="20">
+                    <input class="auth" placeholder="Введите пароль пользователя" type="password" required>
+                    <input class="auth" placeholder="Повторите почту для ползователя" type="email" required>
+                    <button class="regsubmit" type="submit"> Зарегестрироваться </button>
+                    <button class="regclear" type="reset"> Очистить </button>
+                    <button class="regcancel"> Закрыть </button>
+                </dialog>
+            </div>
+        </form>
+        <script src="app.js">
+        </script>
+    </body>
+</html>
